@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/brands.min.css" integrity="sha512-+oRH6u1nDGSm3hH8poU85YFIVTdSnS2f+texdPGrURaJh8hzmhMiZrQth6l56P4ZQmxeZzd2DqVEMqQoJ8J89A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/fontawesome.min.css" integrity="sha512-RvQxwf+3zJuNwl4e0sZjQeX7kUa3o82bDETpgVCH2RiwYSZVDdFJ7N/woNigN/ldyOOoKw8584jM4plQdt8bhA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/regular.min.css" integrity="sha512-aNH2ILn88yXgp/1dcFPt2/EkSNc03f9HBFX0rqX3Kw37+vjipi1pK3L9W08TZLhMg4Slk810sPLdJlNIjwygFw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assests/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!--Menu-->    
+        <nav class="navbar">
+            <ul class="menu list-style">
+                <li><a href="#" class="bg-red"><i class="fa-solid fa-bed logo">  Logo</i></a></li>
+                <li><a href="#" class="hover">Rooms</a></li>
+                <li><a href="#" class="">About</a></li>
+                <li><a href="#" class="">Contact</a></li>
+                <li><a href="#" class="book ">Book Now</a></li>
+            </ul>
+        </nav>
+        <!--Form-->    
+        <div class="header">
+            <img src="./assests/img/hotel.jpg" alt="" style="min-width: 1000px; width: 1500; height: 800;">
+                <div class="box">
+                    <div class="header-box">
+                    <i class="fa-solid fa-bed hotelname">  Hotel Name</i>
+                    </div>
+                    <div class="form-box">
+                        <form action="">
+                            <div class="half">
+                            <label><i class="fa-solid fa-calendar-days "> Check In</i></label>
+                            <input type="text" placeholder="DD MM YYYY">
+                            </div>
+                            <div class="half">
+                            <label><i class="fa-solid fa-calendar-days "> Check Out</i></label>
+                            <input type="text" placeholder="DD MM YYYY">
+                        </div>
+                        <div class="half">
+                            <label for="">
+                                <i class="fa-solid fa-person"> adults </i>
+                                <input type="number" placeholder="1">
+                            </label>
+                        </div>
+                        <div class="half">
+                            <label for="">
+                                <i class="fa-solid fa-child-reaching"> kids</i>
+                                <input type="number" placeholder="0">
+                            </label>
+                        </div>
+                        <button type="submit" class="searchbtn"><i class="fa-solid fa-magnifying-glass"> Search avalibality </i></button>
+                        </form>
+                    </div>
+                </div>   
+            </div> 
+
+        <!--Rooms page--> 
+        <div class="rooms">
+            <h2 class="title">Rooms</h2>
+            <h4 >Make yourself at home is our slogan. We offer the best beds in the industry. Sleep well and rest well.</h4>
+            <form action="">
+                <div class="line">
+                    <label><i class="fa-solid fa-calendar-days "> Check In</i></label>
+                    <input type="text" placeholder="DD MM YYYY">
+                    </div>
+                    <div class="line">
+                    <label><i class="fa-solid fa-calendar-days "> Check Out</i></label>
+                    <input type="text" placeholder="DD MM YYYY">
+                </div>
+                <div class="line">
+                    <label for="">
+                        <i class="fa-solid fa-person"> adults </i>
+                        <input type="number" placeholder="1">
+                    </label>
+                </div>
+                <div class="line">
+                    <label for="">
+                        <i class="fa-solid fa-child-reaching"> kids</i>
+                        <input type="number" placeholder="0">
+                    </label>
+                </div>
+                <i class="fa-solid fa-magnifying-glass search"> Search </i>
+                <button type="submit" class="btn line">Search</button>
+            </form>
+
+            <div class="rooms-info">
+                <div class="rooms-header">
+                    <img src="./assests/img/room_single.jpg" alt="" class="room-img">
+                    <div class="info">
+                        <h2 class="p-b">Single Room</h2>
+                        <h5 class="c-g p-b">From $99</h5>  
+                        <h5 class="p-b"> single bed</h5>
+                        <h5 class="p-b">15m2</h5>    
+                    </div>
+                    <div class="icon ml-20 p-b">
+                        <i class="fa-solid fa-soap"></i>
+                        <i class="fa-solid fa-phone"></i>
+                        <i class="fa-solid fa-wifi"></i>
+                    </div>
+                    <button type="button" class="chooseroom-btn ml-10">  Choose room  </button>
+                </div>
+                <div class="rooms-header ml-20">
+                    <img src="./assests/img/room_double.jpg" alt="" class="room-img">
+                    <div class="info">
+                        <h2 class="p-b">Single Room</h2>
+                        <h5 class="c-g p-b">From $99</h5>  
+                        <h5 class="p-b"> single bed</h5>
+                        <h5 class="p-b">15m2</h5>    
+                    </div>
+                    <div class="icon ml-20 p-b">
+                        <i class="fa-solid fa-soap"></i>
+                        <i class="fa-solid fa-phone"></i>
+                        <i class="fa-solid fa-wifi"></i>
+                        <i class="fa-solid fa-laptop"></i>
+                    </div>
+                    <button type="button" class="chooseroom-btn ml-10">  Choose room  </button>
+                </div>
+                <div class="rooms-header ml-20 mr-20">
+                    <img src="./assests/img/room_deluxe.jpg" alt="" class="room-img">
+                    <div class="info">
+                        <h2 class="p-b">Single Room</h2>
+                        <h5 class="c-g p-b">From $99</h5>  
+                        <h5 class="p-b"> single bed</h5>
+                        <h5 class="p-b">15m2</h5>    
+                    </div>
+                    <div class="icon ml-20 p-b">
+                        <i class="fa-solid fa-soap"></i>
+                        <i class="fa-solid fa-phone"></i>
+                        <i class="fa-solid fa-wifi"></i>
+                        <i class="fa-solid fa-laptop"></i>
+                        <i class="fa-solid fa-martini-glass"></i>
+                        <i class="fa-solid fa-utensils"></i>
+                    </div>
+                    <button type="button" class="chooseroom-btn ml-10">  Choose room  </button>
+                </div>
+            </div>
+        <!--About page--> 
+        <div class="about">
+            <h2>About</h2>
+            <p>Our hotel is one of a kind. It is truely amazing. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+            <p>we accept: 
+                <i class="fa-solid fa-credit-card"></i>
+                <i class="fa-brands fa-cc-mastercard"></i>
+                <i class="fa-brands fa-cc-amex"></i>
+                <i class="fa-brands fa-cc-paypal"></i>
+            </p>
+            <div class="img-map">
+                <img src="./assests/img/map.jpg" alt="" class="map">
+            </div>
+        </div>
+        <div class="contact">
+            <i class="fa-solid fa-location-dot"><span> 423 Some adr, Chicago, US</span></i>
+            <i class="fa-solid fa-phone"><span> Phone: +00 151515</span></i>
+            <i class="fa-solid fa-envelopes-bulk"><span> Email: mail@mail.com</span></i>
+        </div>
+        <div class="alert">
+            <h4>
+            <i class="fa-sharp fa-solid fa-circle-info">  </i>
+                On demand, we can offer playstation, babycall, children care, dog equipment, etc.
+            </h4>
+        </div>
+
+    <!--About Hotels page--> 
+    <div class="hotels">
+        <h2> Our Hotels</h2>
+        <p>You can find our hotels anywhere in the world:</p>
+    </div>
+    <div class="images-container">
+        <div class="child1"> <img src="./assests/img/cinqueterre.jpg" alt=""></div>
+        <div class="child2"><img src="./assests/img/newyork2.jpg" alt="" ></div>
+        <div class="child3"><img src="./assests/img/sanfran.jpg" alt="" ></div>
+        <div class="child4"><img src="./assests/img/pisa.jpg" alt=""></div>
+        <div class="child5"><img src="./assests/img/paris.jpg" alt=""></div>
+    </div>
+    <!--Offer page--> 
+    <div class="box-offer">
+        <h1>Get the best offers first!</h1>
+        <h4>Join our newsletter.</h4>
+        <label for="">E-mail</label>
+        <input type="email" placeholder="Enter your E-mail">
+        <button type="submit" class="sus">Subscribe</button>
+    </div>
+    <!--Contact page--> 
+    <div class="contact-pagr mt-20">
+        <h2>Contact</h2>
+        <h4 class="mt-20">If you have any questions, do not hesitate to ask them.        
+        </h4>
+        <div class="contactus">
+        <i class="fa-solid fa-location-dot contactus mt-20"> <span> 423 Some adr, Chicago, US</span></i>
+        <i class="fa-solid fa-phone contactus mt-20"> <span> Phone: +00 151515</span></i>
+        <i class="fa-solid fa-envelopes-bulk contactus mt-20"> <span> Email: mail@mail.com</span></i>
+    
+        <form action="" class="form-contact">
+        <input type="text" placeholder="Name">
+        <input type="email" placeholder="E-mail">
+        <input type="text" placeholder="Massage">
+        <button type="button" class="contactus-btn"> Send Massage</button>
+    </form>
+</div>
+    </div>
+    <div class="footer">
+        <h2>Find Us On</h2>
+        <div class="social-media ">
+            <i class="fa-brands fa-square-facebook"></i>
+            <i class="fa-brands fa-instagram ml-5"></i>
+            <i class="fa-brands fa-snapchat ml-5"></i>
+            <i class="fa-brands fa-pinterest ml-5"></i>
+            <i class="fa-brands fa-twitter ml-5"></i>
+            <i class="fa-brands fa-linkedin-in ml-5"></i>
+            <i class="fa-brands fa-whatsapp ml-5"></i>
+        </div>
+    </div>
+
+
+        
+
+        
+</body>
+</html>
